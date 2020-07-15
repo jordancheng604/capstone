@@ -1,0 +1,63 @@
+[
+    {
+    "manufacturer_code": "BOEING",
+    "model_no": "CH-47",
+    "model_name": "Chinook",
+    "model_version": "",
+    "engine_count": 2,
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H2T",
+    "wtc": "M",
+    "tdesig": "H47",
+    "image": "https://images.unsplash.com/photo-1570864348100-48d03e7f27b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80"
+  },
+  {
+    "manufacturer_code": "SIKORSKY",
+    "model_no": "CH-148 Cyclone",
+    "model_name": "Cyclone",
+    "model_version": "",
+    "engine_count": 2,
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H2T",
+    "wtc": "M",
+    "tdesig": "S92"
+  },
+  {
+    "manufacturer_code": "BELL",
+    "model_no": "CH-146",
+    "model_name": "Griffon",
+    "model_version": "",
+    "engine_count": 2,
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H2T",
+    "wtc": "L",
+    "tdesig": "B412"
+  },
+  {
+    "manufacturer_code": "AGUSTAWESTLAND",
+    "model_no": "AW-101",
+    "model_name": "Cormorant",
+    "model_version": "",
+    "engine_count": 3,
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H3T",
+    "wtc": "M",
+    "tdesig": "EH10"
+  },
+  {
+    "manufacturer_code": "BELL",
+    "model_no": "CH-139",
+    "model_name": "JetRanger",
+    "model_version": "",
+    "engine_count": 1,
+    "engine_type": "Turboprop/Turboshaft",
+    "aircraft_desc": "Helicopter",
+    "description": "H1T",
+    "wtc": "L",
+    "tdesig": "B06"
+  }
+]
