@@ -16,8 +16,14 @@ app.listen(8080, ()=> console.info('You are running on Port:8080 with Heli-info 
 
 //Getting list of helicopters.
 app.get('/list', (req,res,next)=>{
-    // const heliList=data.map()
-    res.send(data)
+    const heliList=data.map(list=>{
+        const heliObject = {}
+        heliObject.manufacturer_code = list.manufacturer_code,
+        heliObject.model_name = list.model_name,
+        heliObject.image = list.image
+        return heliObject
+    })
+    res.send(heliList)
     next()
 })
 
