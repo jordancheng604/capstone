@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-// import logo from '';
+import './NavBar.scss';
+import logo from '../../logoChinook2.svg';
 
 export default function NavBar() {
     return (
@@ -8,7 +9,7 @@ export default function NavBar() {
             <header className="header">
             <div className='header__logo'>
             <Link to='/' className="HeliLogo">
-            <img src='' alt='Heli-Info Logo'/>
+            <img src={logo} alt='Heli-Info Logo' className='header__logoImage'/>
             </Link>
             </div>
             
