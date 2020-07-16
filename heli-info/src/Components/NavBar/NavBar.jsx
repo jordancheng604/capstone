@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+// import logo from '';
 
 export default function NavBar() {
     return (
         <div>
-            <Header>
+            <header className="header">
             <div className='header__logo'>
             <Link to='/' className="HeliLogo">
-            <img src={props.logo} alt='Heli-Info Logo'/>
+            <img src='' alt='Heli-Info Logo'/>
             </Link>
             </div>
             
@@ -22,7 +23,7 @@ export default function NavBar() {
             <button className="header__About">Home</button>
             </Link>
             </div>
-            </Header>
+            </header>
         </div>
     )
 }
