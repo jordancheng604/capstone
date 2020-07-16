@@ -5,15 +5,18 @@ import axios from 'axios';
 import { BrowserRouter, Route, Switch, } from "react-router-dom";
 import Home from './Components/Main';
 import OneHeli from './Components/OneHeli/OneHeli';
-import Main from './Components/Main';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route path='/About' component={About}/>
+      <Route path='/Contact' component={Contact}/>
       <Route path='/:modelname' component={OneHeli}/>
+      <Route exact path='/' component={Home}/>
       </Switch>
       </BrowserRouter>
     </div>

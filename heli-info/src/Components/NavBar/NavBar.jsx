@@ -19,7 +19,7 @@ export default function NavBar() {
             <Link to='/Contact'>
             <button className="header__About">Contact</button>
             </Link>
-            <Link to='/Home'>
+            <Link to='/'>
             <button className="header__About">Home</button>
             </Link>
             </div>
