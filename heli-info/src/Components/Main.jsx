@@ -24,7 +24,7 @@ export default class Main extends React.Component {
         <div>
             <NavBar/>
             <h1>Main Component AKA HOME PAGE</h1>
-            <img src={'https://images.unsplash.com/photo-1570864348100-48d03e7f27b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80'}/>
+            <img src={'https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80'}/>
         </div>
     )}
 }

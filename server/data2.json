@@ -10,7 +10,7 @@
     "description": "H2T",
     "wtc": "M",
     "tdesig": "H47",
-    "image": "https://images.unsplash.com/photo-1570864348100-48d03e7f27b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80"
+    "image": "https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80"
   },
   {
     "manufacturer_code": "SIKORSKY",
@@ -22,7 +22,8 @@
     "aircraft_desc": "Helicopter",
     "description": "H2T",
     "wtc": "M",
-    "tdesig": "S92"
+    "tdesig": "S92",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/CH-148_Cyclone_Heli.jpg"
   },
   {
     "manufacturer_code": "BELL",
