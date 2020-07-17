@@ -25,7 +25,7 @@ class Main extends React.Component {
     return (
         <div>
             <NavBar/>
-            <SideList heliList={this.state.data}/>
+            <SideList heliList={this.state.data} classname="SideList"/>
             <OneHeli/>
             <h3>Main Component AKA HOME PAGE</h3>
             <img src={'https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80'}/>

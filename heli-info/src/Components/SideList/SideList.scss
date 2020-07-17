@@ -1,8 +1,15 @@
 .SideList{
     display: flex;
     flex-direction: column;
-    width: 25%;
-    height: 75%;
+    width: 20%;
+    height: 35rem;
     border: 1px dashed rgb(135, 115, 72);
     margin: 0rem;
+    list-style: none;
+    text-decoration: none;
+
+    &__image{
+        height: 3rem;
+        width: 5rem;
+    }
 }
