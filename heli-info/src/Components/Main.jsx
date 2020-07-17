@@ -12,7 +12,7 @@ class Main extends React.Component {
         mainAircraft: {}
     }
     componentDidMount(){
-        axios.get('http://localhost:8080/Chinook')
+        axios.get('http://localhost:8080/:mode_name')
         .then(res=>{this.setState({mainAircraft: res.data})})
         .catch(console.error())
 
@@ -26,9 +26,7 @@ class Main extends React.Component {
         <div>
             <NavBar/>
             <SideList heliList={this.state.data} classname="SideList"/>
-            <OneHeli/>
-            <h3>Main Component AKA HOME PAGE</h3>
-            <img src={'https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80'}/>
+            <OneHeli singleAircraft={this.state.mainAircraft}/>
         </div>
     )}
 }
