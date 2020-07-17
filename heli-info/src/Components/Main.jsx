@@ -6,7 +6,7 @@ import './Main.scss';
 import SideList from './SideList/SideList';
 import OneHeli from './OneHeli/OneHeli';
 
-export default class Main extends React.Component {
+class Main extends React.Component {
     state = {
         data: [],
         mainAircraft: {}
@@ -32,3 +32,4 @@ export default class Main extends React.Component {
         </div>
     )}
 }
+export default withRouter(Main);

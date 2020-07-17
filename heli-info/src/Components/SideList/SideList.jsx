@@ -1,16 +1,27 @@
 import React from 'react';
 import './SideList.scss';
+import {Link, withRouter} from 'react-router-dom';
 
-export default function SideList() {
+class SideList extends React.Component {
 
+    render(){
+        let heliList = this.props.heliList
     return (
         <div className="SideList">
-            <h5>Side Vertical List</h5>
-            <h5>Side Vertical List</h5>
-            <h5>Side Vertical List</h5>
-            <h5>Side Vertical List</h5>
-            <h5>Side Vertical List</h5>
+           {heliList.map(aircraft=>{return(
+               <Link to={`/:model_name`}>
+                   <li className='SideList__card'>
+                       <img className='SideList__image'src={aircraft.image}/>
+                       <div>
+                           <div className='SideList__make'>{aircraft.manufacturer_code}</div>
+                           <div className='SideList__model'>{aircraft.model_name}</div>
+                       </div>
+
+                   </li>
+               </Link>
+           )})}
 
         </div>
-    )
+    )}
 }
+export default withRouter(SideList);
