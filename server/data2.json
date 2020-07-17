@@ -35,7 +35,8 @@
     "aircraft_desc": "Helicopter",
     "description": "H2T",
     "wtc": "L",
-    "tdesig": "B412"
+    "tdesig": "B412",
+    "image": ""
   },
   {
     "manufacturer_code": "AGUSTAWESTLAND",
@@ -47,7 +48,8 @@
     "aircraft_desc": "Helicopter",
     "description": "H3T",
     "wtc": "M",
-    "tdesig": "EH10"
+    "tdesig": "EH10",
+    "image": ""
   },
   {
     "manufacturer_code": "BELL",
@@ -59,6 +61,7 @@
     "aircraft_desc": "Helicopter",
     "description": "H1T",
     "wtc": "L",
-    "tdesig": "B06"
+    "tdesig": "B06",
+    "image": ""
   }
 ]

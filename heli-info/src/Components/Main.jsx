@@ -3,6 +3,8 @@ import axios from 'axios';
 import NavBar from './NavBar/NavBar';
 import { withRouter } from 'react-router-dom';
 import './Main.scss';
+import SideList from './SideList/SideList';
+import OneHeli from './OneHeli/OneHeli';
 
 export default class Main extends React.Component {
     state = {
@@ -23,7 +25,9 @@ export default class Main extends React.Component {
     return (
         <div>
             <NavBar/>
-            <h1>Main Component AKA HOME PAGE</h1>
+            <SideList heliList={this.state.data}/>
+            <OneHeli/>
+            <h3>Main Component AKA HOME PAGE</h3>
             <img src={'https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80'}/>
         </div>
     )}
