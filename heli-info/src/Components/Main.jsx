@@ -9,24 +9,35 @@ import OneHeli from './OneHeli/OneHeli';
 class Main extends React.Component {
     state = {
         data: [],
-        mainAircraft: {}
+        mainAircraft: {},
     }
-    componentDidMount(){
-        axios.get('http://localhost:8080/:mode_name')
-        .then(res=>{this.setState({mainAircraft: res.data})})
-        .catch(console.error())
+    async componentDidMount(){
+       
 
         axios.get('http://localhost:8080/list')
         .then(res=>{this.setState({data: res.data})})
         .catch(console.error())
     }
+    componentDidUpdate(prevProps){
+        if(this.props.match.params.id !== prevProps.match.params.id){
+            axios.get('http://localhost:8080/:mode_name')
+            .then(console.log()
+            //     res=>{this.setState({mainAircraft: res})
+            // console.log('L25' + this.props)
+            // }
+            )
+            .catch(console.error())
+        }
+    }
 
-    render() {
+    render(props) {
+        console.log('L32' + {props})
     return (
         <div>
             <NavBar/>
             <SideList heliList={this.state.data} classname="SideList"/>
-            <OneHeli singleAircraft={this.state.mainAircraft}/>
+            
+            <OneHeli  singleAircraft={this.state.mainAircraft}/>
         </div>
     )}
 }

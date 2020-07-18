@@ -6,7 +6,7 @@ function OneHeli(singleAircraft) {
     console.log(singleAircraft)
     return (
         <div className='OneHeli'>
-            <h7>One Heli is for displaying a single helicopter after a user clicked on one.</h7>
+            <h5>One Heli is for displaying a single helicopter after a user clicked on one.</h5>
             <img src={singleAircraft}/>
         </div>
 

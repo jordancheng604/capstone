@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Main from './Components/Main'
 import './App.css';
 import axios from 'axios';
 import { BrowserRouter, Route, Switch, } from "react-router-dom";
@@ -8,6 +9,7 @@ import OneHeli from './Components/OneHeli/OneHeli';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
       <Switch>
       <Route path='/About' component={About}/>
       <Route path='/Contact' component={Contact}/>
-      <Route path='/:modelname' component={OneHeli}/>
+      <Route path='/:modelname' render={(routeProps)=>{return <Main routeProps={routeProps}/>}}/>
       <Route exact path='/' component={Home}/>
       </Switch>
       </BrowserRouter>
