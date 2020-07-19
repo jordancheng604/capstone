@@ -7,6 +7,9 @@ export default function About() {
         <div>
             <NavBar/>
             <h1>About PAGE.</h1>
+            <p>
+                The intent of this is to help share and spread information about helicopters and saying Thank-You to those that serve and have served.
+            </p>
         </div>
     )
 }

@@ -31,7 +31,7 @@ class Main extends React.Component {
     }
 
     render(props) {
-        console.log('L32' + {props})
+        console.log('Main Line:32' + {props})
     return (
         <div>
             <NavBar/>

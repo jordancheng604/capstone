@@ -10,7 +10,7 @@ class SideList extends React.Component {
         <div className="SideList">
            {heliList.map(aircraft=>{return(
                <Link to={`/${aircraft.model_name}`}>
-                   <li className='SideList__card'>
+                   <li className='SideList__card' key={aircraft.id}>
                        <img className='SideList__image'src={aircraft.image}/>
                        <div>
                            <div className='SideList__make'>{aircraft.manufacturer_code}</div>

@@ -6,6 +6,14 @@ export default function Contact() {
         <div>
             <NavBar/>
             <h1>Contact PAGE.</h1>
+            <p>
+                Contact us at:
+                heli.info2020@gmail.com
+            
+            </p>
+            <p>
+                EMAIL subbmission contact form.
+            </p>
         </div>
     )
 }
