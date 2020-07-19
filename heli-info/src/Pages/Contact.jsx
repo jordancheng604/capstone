@@ -14,6 +14,15 @@ export default function Contact() {
             <p>
                 EMAIL subbmission contact form.
             </p>
+
+            <form>
+                <input>EMAIL</input>
+                <input>NAME</input>
+                <textarea>Message</textarea>
+                <button>SUBMIT</button>
+            </form>
+
+            
         </div>
     )
 }
