@@ -15,12 +15,12 @@ export default function Contact() {
                 EMAIL subbmission contact form.
             </p>
 
-            <form>
-                <input>EMAIL</input>
-                <input>NAME</input>
-                <textarea>Message</textarea>
+            {/* <form className="contact__form" onSubmit={""}>
+                <input name="emailInput" type="email" className="contact__emailInput">EMAIL</input>
+                <input name="nameInput" type="text" className="contact__nameInput">NAME</input>
+                <textarea type="text" className="contact__messageInput">Message</textarea>
                 <button>SUBMIT</button>
-            </form>
+            </form> */}
 
             
         </div>
