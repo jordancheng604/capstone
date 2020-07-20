@@ -11,20 +11,24 @@ class Main extends React.Component {
         data: [],
         mainAircraft: {},
     }
-    async componentDidMount(){
+    async componentDidMount(props){
        
 
         axios.get('http://localhost:8080/list')
         .then(res=>{this.setState({data: res.data})})
         .catch(console.error())
+
+        axios.get('http://localhost:8080/Chinook')
+        .then(res=>{this.setState({mainAircraft: res.data})})
+
     }
     componentDidUpdate(prevProps){
-        if(this.props.match.params.id !== prevProps.match.params.id){
-            axios.get('http://localhost:8080/:mode_name')
-            .then(console.log()
-            //     res=>{this.setState({mainAircraft: res})
-            // console.log('L25' + this.props)
-            // }
+        if(this.props.match.params !== prevProps.match.params){
+            axios.get(`http://localhost:8080/${this.props.match.params.modelname}`)
+            .then(
+                res=>{this.setState({mainAircraft: res.data})
+            console.log('L25' + this.props)
+            }
             )
             .catch(console.error())
         }
