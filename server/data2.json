@@ -12,9 +12,15 @@
     "wtc": "M",
     "tdesig": "H47",
     "overview": "The CH-147F Chinook is an advanced, multi-mission helicopter used to transport equipment and personnel during domestic or deployed operations. The Chinook supports the Canadian Army, special operations forces, other government departments, law enforcement agencies and civil authorities. It has enhanced self-protection capabilities, including anti-missile protection systems, radar as well as laser warning systems, ballistic protection and self-defence machine guns.",
-    "length": "15.9 m",
-    "wingspan": "18.28 m",
+    "length": "15.9 metres (fuselage), 30.18 metres (rotor tip to rotor tip)",
+    "wingspan": "Rotor span 18.28 metres",
     "height": "5.77 m",
+    "max_gross_weight": "24,494 kg",
+    "max_slinging_payload": "12,700 kg",
+    "power": "2 X Honeywell 55-GA-714A engines, 3,529 kilowatts (4,733 shp)",
+    "max_speed": "315 km/h (at sea level)",
+    "range": "1,200 km",
+    "aircraft_use": "Tactical aviation.",
     "image": "https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80"
   },
   {
