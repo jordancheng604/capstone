@@ -10,7 +10,7 @@ export default class Contact extends Component {
             name: 'Name', 
             email: 'email@example.com'
         };
-        this.handleChange=this.handleChange.bind(this);
+        // this.handleChange=this.handleChange.bind(this);
         // this.handleSubmit = this.handleSubmit.bind(this);
 
     }
