@@ -18,10 +18,13 @@ export default function NavBar() {
             <button className="header__About">About</button>
             </Link>
             <Link to='/Contact'>
-            <button className="header__About">Contact</button>
+            <button className="header__Contact">Contact</button>
             </Link>
             <Link to='/'>
-            <button className="header__About">Home</button>
+            <button className="header__Home">Home</button>
+            </Link>
+            <Link to='/test'>
+            <button className="header__TestStoryMode">TestStoryMode</button>
             </Link>
             </div>
             </header>
