@@ -23,8 +23,8 @@ export default function NavBar() {
             <Link to='/'>
             <button className="header__Home">Home</button>
             </Link>
-            <Link to='/test'>
-            <button className="header__TestStoryMode">TestStoryMode</button>
+            <Link to='/Storymode'>
+            <button className="header__TestStoryMode">StoryMode</button>
             </Link>
             </div>
             </header>
