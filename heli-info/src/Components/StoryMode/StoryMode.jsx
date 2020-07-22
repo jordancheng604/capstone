@@ -9,7 +9,7 @@ import './StoryMode.scss';
 import {OBJModel} from 'react-3d-viewer';
 import { Geometry } from 'three';
 
-import heli from "./Assets/model_obj/model.obj"
+import heli from "./model.obj";
 
 const scene = new THREE.Scene();
 
@@ -29,22 +29,21 @@ document.body.appendChild(renderer.domElement);
 const geometry = new THREE.BoxGeometry( 2, 2, 2);
 const material = new THREE.MeshBasicMaterial( {color: 0x0000ff} );
 
-// const texture = new THREE.TextureLoader().load();
-//if you actually want to texture the crate and have the assets to do so.
 
 const cube = new THREE.Mesh( geometry, material );
 scene.add(cube);
 
-camera.position.z = 5;
+camera.position.z = 9;
 
 function animate() {
     requestAnimationFrame(animate)
 
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+    // cube.rotation.x += 0.02;
+    cube.rotation.y += 0.02;
 
     renderer.render(scene, camera);
 }
+
 animate();
 
 
@@ -59,6 +58,8 @@ class StoryMode extends React.Component{
 
 
     render(){
+
+        
     return (
         <div className="StoryMode">
             <NavBar/>
@@ -77,7 +78,7 @@ class StoryMode extends React.Component{
                }}
                /> */}
 
-            <OBJModel 
+            {/* <OBJModel 
                     className="HeliModel__object"
                     width="390" height="390"  
                     position={{x:0,y:-100,z:0}} 
@@ -88,7 +89,7 @@ class StoryMode extends React.Component{
                     onProgress={xhr=>{
                     //...
                     }}
-                />
+                /> */}
 
 
            </div>
