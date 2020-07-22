@@ -9,6 +9,8 @@ import './StoryMode.scss';
 import {OBJModel} from 'react-3d-viewer';
 import { Geometry } from 'three';
 
+import heli from "./Assets/model_obj/model.obj"
+
 const scene = new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight,
@@ -16,7 +18,9 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHei
     1000
     );
 
-const renderer = new THREE.WebGLRenderer(); 
+const renderer = new THREE.WebGLRenderer({
+    antialias: true
+}); 
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 
@@ -24,8 +28,26 @@ document.body.appendChild(renderer.domElement);
 
 const geometry = new THREE.BoxGeometry( 2, 2, 2);
 const material = new THREE.MeshBasicMaterial( {color: 0x0000ff} );
+
+// const texture = new THREE.TextureLoader().load();
+//if you actually want to texture the crate and have the assets to do so.
+
 const cube = new THREE.Mesh( geometry, material );
 scene.add(cube);
+
+camera.position.z = 5;
+
+function animate() {
+    requestAnimationFrame(animate)
+
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
+
+    renderer.render(scene, camera);
+}
+animate();
+
+
 
 class StoryMode extends React.Component{
     constructor(props){
