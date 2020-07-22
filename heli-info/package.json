@@ -10,6 +10,7 @@
     "emailjs-com": "^2.4.1",
     "gsap": "^3.4.1",
     "react": "^16.13.1",
+    "react-3d-viewer": "^1.0.12",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"

@@ -1,11 +1,31 @@
 
 .StoryMode{
     // background-color: greenyellow;
-    // border: 1px dashed fuchsia;
+    border: 1px dashed fuchsia;
     // width: 7rem;
     // height: 9rem;
     font-weight: 100;
+    
+
+    
 }
 h3{
     // float: left;
+}
+.section__left{
+    // float: left;
+    text-align: left;
+}
+
+.section__right{
+    // float: right;
+    text-align: right;
+}
+.HeliModel{
+    border: 1px dashed yellowgreen;
+    background-color: lightblue;
+    // height: 20rem;
+    // width: 20rem;
+    margin:1rem;
+    padding: 1rem;
 }
