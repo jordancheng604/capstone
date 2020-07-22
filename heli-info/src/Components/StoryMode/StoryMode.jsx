@@ -14,7 +14,32 @@ class StoryMode extends React.Component{
             <h5>StoryMode page</h5>
 {/* We'll base it off the Apache for now since there's more modeling data for it */}
            <div className="HeliModel">
-               <OBJModel src="./Assets/model_obj/model.obj" />
+               {/* <OBJModel 
+               width="399" height="399"
+               position={{x:0,y:-100,z:0}}
+               src="./Assets/model_obj/model.obj" 
+               onLoad={()=>{
+                //...
+               }}
+               onProgres={xhr=>{
+                   //...
+               }}
+               /> */}
+
+            <OBJModel 
+                    className="HeliModel__object"
+                    width="390" height="390"  
+                    position={{x:0,y:-100,z:0}} 
+                    src="./model.obj"
+                    onLoad={()=>{
+                    //...
+                    }}
+                    onProgress={xhr=>{
+                    //...
+                    }}
+                />
+
+
            </div>
             <h3 className="section__left">L-Helicopter Model No and Name: AH-64 Apache</h3>
             <h3 className="section__left">L-Manufacturer: Boeing</h3>
