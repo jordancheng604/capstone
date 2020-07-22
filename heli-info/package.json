@@ -14,7 +14,6 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-three-renderer": "^3.2.4",
     "react-three-renderer-objects": "0.0.6",
     "three": "^0.118.3"
   },

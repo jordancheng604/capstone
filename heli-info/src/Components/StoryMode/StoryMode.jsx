@@ -4,7 +4,15 @@ import './StoryMode.scss';
 
 import {OBJModel} from 'react-3d-viewer';
 
+
+
 class StoryMode extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={
+            scene: {}
+        }
+    }
 
 
     render(){
