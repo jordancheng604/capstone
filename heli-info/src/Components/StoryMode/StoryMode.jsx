@@ -141,8 +141,9 @@ class StoryMode extends React.Component{
         0.1,
         1000
         );
-        this.camera.position.z = 5;
-        this.camera.position.y = -10;
+        this.camera.position.z = 1;
+        this.camera.position.x = 1;
+        // this.camera.position.y = -10;
 
         //Controls
         const controls = new OrbitControls(this.camera, this.renderer.domElement);
@@ -184,7 +185,7 @@ class StoryMode extends React.Component{
         // objLoader.load("./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
         object=>{
         this.chinook=object;
-        this.chinook.scale.set(1.2,0.7,0.7);
+        this.chinook.scale.set(0.9,0.9,0.9);
         this.scene.add(this.chinook);
       }
       )
