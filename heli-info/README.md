@@ -1,15 +1,35 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-This project was and is created with the best intentions, we do not mean to harm or break any copy rights and royalties. With assets and information shown on our site, we try our best to credit the authors and databases used to build this project.
+This project was and is created with the best intentions, we do not mean to harm or break any copy rights and royalties. With assets and information shown on our site, we try our best to credit the authors and databases used to build this project. It wouldn't be possible without them.
+
+And one of the main reasons behind this project:
+-Thank you to those that serve and have served. 
+--We built this with the intention to share and spread information and to say Thank-you to you and your families.
 
 
 Thank you to those that have provided 3D models for reuse.
 
-Thank you to those that serve and have served. 
--We built this with the intention to share and spread information and to say Thank-you to you.
 
 
+To list resources that we have used on our website, kindly find them below:
+1.Canada Department of National Defence(DND, RCAF)
+-https://www.canada.ca/en/services/defence/defence-equipment-purchases-upgrades/air-equipment-procurement.html
+-http://www.rcaf-arc.forces.gc.ca/
+
+2.International Civil Aviation Organization(ICAO)
+-https://www.icao.int/Pages/default.aspx
+
+3.Google Poly
+-https://poly.google.com/view/f3W-vzmHRgW
+
+4.Free3d
+-https://free3d.com/3d-model/tandem-rotor-transport-helicopter-v1--802494.html
+-https://free3d.com/3d-model/fighter-helicopter-v1--201457.html
+
+5.Unsplash
+
+6.
 
 
 
