@@ -125,38 +125,6 @@ import './StoryMode.scss';
 
 
 class StoryMode extends React.Component{
-    // constructor(props){
-    //     super(props);
-    //     this.state={
-    //         scene: {}
-    //     }
-    // this.heliImage = this.heliImage.bind(this);           
-    // }
-
-    // componentDidMount(){
-    // let mtlLoader = new MTLLoader();
-    // mtlLoader.setBaseUrl("./model.obj");
-    // mtlLoader.load("freedom.myl", materials => {
-    //     materials.preload()
-    //     console.log("Material load successful")
-
-    //     let objLoader = new OBJLoader();
-    //     objLoader.setMaterials(materials);
-    //     objLoader.load(
-    //         "./model.obj",
-    //         object=>{
-    //             this.freedomMesh = object;
-    //             this.freedomMesh.position.setY(3);
-    //             this.scene.add(this.freedomMesh);
-    //         }
-    
-    //     )
-
-
-    // })
-        
-
-    // }
     componentDidMount(){
       //Scene
       const width = this.mount.clientWidth;
@@ -165,7 +133,6 @@ class StoryMode extends React.Component{
 
       //Render
       this.renderer = new THREE.WebGLRenderer({antialias: true});
-      // this.renderer.setClearColor("");
       this.renderer.setSize(width, height);
       this.mount.appendChild(this.renderer.domElement);
 
@@ -196,9 +163,9 @@ class StoryMode extends React.Component{
         light[4].position.set(-50,-50,0);
         light[5].position.set(50,50,0);
         // this.scene.add(light[0]);
-        this.scene.add(light[1]);
-        this.scene.add(light[2]);
-        this.scene.add(light[3]);
+        // this.scene.add(light[1]);
+        // this.scene.add(light[2]);
+        // this.scene.add(light[3]);
         this.scene.add(light[4]);
         this.scene.add(light[5]);
 
@@ -208,21 +175,11 @@ class StoryMode extends React.Component{
         this.start();
     }
 
-    
-    animate=()=>{
-      // rotation.y += 0.001;
-      // this.renderScene();
-      window.requestAnimationFrame(this.animate);
-    }
-
 
     addModel(){
-      let mtlLoader = new MTLLoader();
-      mtlLoader.setBaseUrl("./assets/");
-      mtlLoader.load("", materials=>{
-        materials.preload();
-        let objLoader = new OBJLoader();
-        objLoader.setMaterials(materials);
+      //wireframe for Materials can be added later if we have time.
+      let objLoader = new OBJLoader();
+        // objLoader.setMaterials({wireframe: true})
         objLoader.load("./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
         object=>{
         this.chinook=object;
@@ -230,10 +187,6 @@ class StoryMode extends React.Component{
         this.scene.add(this.chinook);
       }
       )
-      })
-
-      
-
     }
 
     start=()=>{
@@ -247,8 +200,9 @@ class StoryMode extends React.Component{
       this.frameId=window.requestAnimationFrame(this.animate);
     };
     renderScene=()=>{
-      if(this.renderer) this.renderer.render(this.scene, this.camera);
-        
+      if(this.renderer){
+        this.renderer.render(this.scene, this.camera);
+      }
       
     }
 
