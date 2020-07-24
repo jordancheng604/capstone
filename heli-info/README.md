@@ -29,7 +29,12 @@ To list resources that we have used on our website, kindly find them below:
 
 5.Unsplash
 
-6.
+6.Aviation companies and manufacturers:
+-Boeing
+-Sikorsky
+-General Electric(GE)
+-Honeywell
+-Lycoming
 
 
 

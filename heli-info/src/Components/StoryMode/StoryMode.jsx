@@ -180,7 +180,8 @@ class StoryMode extends React.Component{
       //wireframe for Materials can be added later if we have time.
       let objLoader = new OBJLoader();
         // objLoader.setMaterials({wireframe: true})
-        objLoader.load("./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
+        objLoader.load("./assets/model_obj_f3W-vzmHRgW_4EeRj7QNREa/model.obj",
+        // objLoader.load("./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
         object=>{
         this.chinook=object;
         this.chinook.scale.set(1.2,0.7,0.7);
