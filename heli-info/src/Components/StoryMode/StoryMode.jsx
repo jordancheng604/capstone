@@ -184,9 +184,9 @@ class StoryMode extends React.Component{
         objLoader.load("./assets/model_obj_f3W-vzmHRgW_4EeRj7QNREa/model.obj",
         // objLoader.load("./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
         object=>{
-        this.chinook=object;
-        this.chinook.scale.set(0.9,0.9,0.9);
-        this.scene.add(this.chinook);
+        this.aircraft=object;
+        this.aircraft.scale.set(0.9,0.9,0.9);
+        this.scene.add(this.aircraft);
       }
       )
     }
@@ -214,14 +214,8 @@ class StoryMode extends React.Component{
     
 
 heliImage = ()=>{
-    // return <img src={heliLogo}/>
 }
     render(){
-
-        // this.THREE = THREE;
-        // const objLoader = new this.THREE.OBJLoader();
-
-
         
     return (
         <div className="StoryMode">
@@ -277,85 +271,3 @@ heliImage = ()=>{
 }
 }
 export default StoryMode;
-
-
-// componentDidMount() {
-//   const width = this.mount.clientWidth;
-//   const height = this.mount.clientHeight;
-//   this.scene = new THREE.Scene();
-
-//   //Renderer
-//   this.renderer = new THREE.WebGLRenderer({ antialias: true });
-//   this.renderer.setClearColor("");
-//   this.renderer.setSize(width, height);
-//   this.mount.appendChild(this.renderer.domElement);
-
-//   //Camera
-//   this.camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 
-//     0.1, 
-//     1000);
-
-//   //Chinook 3D model came sideways; had to play around with the camera angle to get the desired look onload.  
-//   //Did not attempt .rotation for long and possible Xcode editing.
-//   //It looks okay and it works; moving along.
-//   this.camera.position.z = 5;
-//   this.camera.position.y = -10;
-//   this.camera.position.x = 0;
-
-//   //Camera Controls
-//   const controls = new OrbitControls(this.camera, this.renderer.domElement);
-
-//   //LIGHTS
-//   //Chang colors as desired.
-//   var lights = [];
-//   lights[0] = new THREE.PointLight(0x304ffe, 1, 0);
-//   lights[1] = new THREE.PointLight(0xffffff, 1, 0);
-//   lights[2] = new THREE.PointLight(0xffffff, 1, 0);
-//   lights[0].position.set(0, 200, 0);
-//   lights[1].position.set(100, 200, 100);
-//   lights[2].position.set(-100, -200, -100);
-//   this.scene.add(lights[0]);
-//   this.scene.add(lights[1]);
-//   this.scene.add(lights[2]);
-
-//   this.addModels();
-
-//   // this.renderScene();
-//   this.start();
-// }
-
-// addModels() {
-  
-//   var mtlLoader = new MTLLoader();
-//   mtlLoader.setBaseUrl("./assets/");
-//   mtlLoader.load("", materials => {
-//     materials.preload();
-//     var objLoader = new OBJLoader();
-//     objLoader.setMaterials(materials);
-//     objLoader.load(
-//       "./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
-//       object => {
-//         this.chinook = object;
-//         this.chinook.scale.set(1.2, 0.7, 0.7);
-//         this.scene.add(this.chinook);
-//       },
-//     );
-//   });
-// }
-
-// start = () => {
-//   if (!this.frameId) {
-//     this.frameId = requestAnimationFrame(this.animate);
-//   }
-// };
-// animate = () => {
-  
-//   // if (this.chinook) this.chinook.rotation.x += 0.01;
-//   // if (this.chinook) this.chinook.rotation.y += 0.01;
-//   // if (this.chinook) this.chinook.rotation.z += 0.01;
-//   this.renderScene();
-//   this.frameId = window.requestAnimationFrame(this.animate);
-// };
-// renderScene = () => {
-//   if (this.renderer) this.renderer.render(this.scene, this.camera);
-// };
