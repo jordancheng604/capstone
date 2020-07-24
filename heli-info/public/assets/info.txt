@@ -1,0 +1,5 @@
+3D models were sourced from:
+1. https://free3d.com/3d-models/obj-helicopter
+2. Google Poly
+
+Thank you to those that made the models used in this project.
