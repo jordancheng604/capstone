@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+This project was and is created with the best intentions, we do not mean to harm or break any copy rights and royalties. With assets and information shown on our site, we try our best to credit the authors and databases used to build this project.
+
+
+Thank you to those that have provided 3D models for reuse.
+
+Thank you to those that serve and have served. 
+-We built this with the intention to share and spread information and to say Thank-you to you.
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
