@@ -13,7 +13,7 @@
     "tdesig": "H47",
     "overview": "The CH-147F Chinook is an advanced, multi-mission helicopter used to transport equipment and personnel during domestic or deployed operations. The Chinook supports the Canadian Army, special operations forces, other government departments, law enforcement agencies and civil authorities. It has enhanced self-protection capabilities, including anti-missile protection systems, radar as well as laser warning systems, ballistic protection and self-defence machine guns.",
     "length": "15.9 metres (fuselage), 30.18 metres (rotor tip to rotor tip)",
-    "wingspan": "Rotor span 18.28 metres",
+    "wingspan": "Rotor span: 18.28 metres",
     "height": "5.77 m",
     "max_gross_weight": "24,494 kg",
     "max_slinging_payload": "12,700 kg",
@@ -27,7 +27,10 @@
     "years_produced": "2013-2014",
     "cost": "",
     "location": "Location: Canadian Armed Forces Base Petawawa, Ontario",
-    "image": "https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80"
+    "image": "https://images.unsplash.com/photo-1562361226-6a0a40ef3718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80",
+    "href": "Unsplash: Beautiful Free Images & Pictures",
+    "image2":"",
+    "href2":"Royal Canadian Air Force"
   },
   {
     "id": 2,
@@ -41,7 +44,9 @@
     "description": "H2T",
     "wtc": "M",
     "tdesig": "S92",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/CH-148_Cyclone_Heli.jpg"
+    "image": "https://arc.forces.gc.ca/assets/AIRFORCE_Internet/images/aircraft-current/ch-148/ch-148-cyclone-fact-sheet-image.png",
+    "image2": "http://rcaf-arc-images.forces.gc.ca/gallery/caf/detail/api/v1/asset/56344/preview",
+    "href": "Royal Canadian Air Force"
   },
   {
     "id": 3,
