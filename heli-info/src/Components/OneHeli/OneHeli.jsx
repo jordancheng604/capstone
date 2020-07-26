@@ -18,6 +18,7 @@ function OneHeli({singleAircraft}) {
             <div className="OneHeli__power"><span className='OneHeli__specHeading'>Powerplant:</span> {singleAircraft.power}</div>
             <div className="OneHeli__maxSpeed"><span className='OneHeli__specHeading'>Max speed: </span> {singleAircraft.max_speed}</div>
             <div className="OneHeli__range"><span className='OneHeli__specHeading'>Range:</span> {singleAircraft.range}</div>
+            <div className="OneHeli__aircraftUse"><span className='OneHeli__specHeading'>Aircraft use:</span> {singleAircraft.aircraft_use}</div>
             <div className="OneHeli__crew"><span className='OneHeli__specHeading'>Crew:</span> {singleAircraft.crew}</div>
             </div>
         </div>
