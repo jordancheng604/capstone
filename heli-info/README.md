@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-This project was and is created with the best intentions, we do not mean to harm or break any copy rights and royalties. With assets and information shown on our site, we try our best to credit the authors and databases used to build this project. It wouldn't be possible without them.
+This project was and is created with the best intentions, we do not mean to harm or break any copy rights and/or royalties. With assets and information shown on our site, we try our best to credit the authors and databases used to build this project. It wouldn't be possible without them.
 
 And one of the main reasons behind this project:
 -Thank you to those that serve and have served. 
@@ -36,7 +36,7 @@ To list resources that we have used on our website, kindly find them below:
 -Honeywell
 -Lycoming
 
-
+We are a very small team and currently, this site is best viewed on a tablet screen or larger.
 
 ## Available Scripts
 

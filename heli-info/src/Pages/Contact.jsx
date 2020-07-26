@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import NavBar from '../Components/NavBar/NavBar';
 import { Link, Redirect, withRouter } from "react-router-dom";
+import '../styles/styles.scss';
 
 export default class Contact extends Component {
     constructor(){

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../Components/NavBar/NavBar';
+import '../styles/styles.scss';
 
 
 export default function About() {

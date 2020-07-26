@@ -1,3 +1,5 @@
+@import '../../styles/styles.scss';
+
 .OneHeli{
     width: 73%;
     height: 35rem;
@@ -7,7 +9,15 @@
 
 
     &__image{
+        border: 1px solid black;
         border-radius: 5px;
-        
+        height: 5rem;
+        width: 8rem;
+    }
+
+
+    &__overview{
+        // text-align: right;
+        padding-left: 1rem;
     }
 }
