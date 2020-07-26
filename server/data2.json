@@ -24,7 +24,7 @@
     "aircraft_use": "Tactical aviation.",
     "weapon_systems": "Weapons systems: laser-based active missle counter-mesaure system (to be completed); full armour kit; and, three defensive machine guns (two forward door guns and one on the aft ramp)",
     "equipment": "Equipment: extended range fuel tanks; chaff and flare dispensing system; radar and laser warning system; electro-optic/infra-red sensor.",
-    "crew": "up to 5 members according to the mission, including: 2 pilots, 1 flight engineer, 1 load master (depending on the mission), 1 door gunner (depending on the mission).",
+    "crew": "Crew: up to 5 members according to the mission, including: 2 pilots, 1 flight engineer, 1 load master (depending on the mission), 1 door gunner (depending on the mission).",
     "years_produced": "2013-2014",
     "cost": "",
     "location": "Location: Canadian Armed Forces Base Petawawa, Ontario",
@@ -115,7 +115,7 @@
   {
     "id": 4,
     "manufacturer_code": "AGUSTA WESTLAND",
-    "model_no": "AW-101",
+    "model_no": "CH-149",
     "model_name": "Cormorant",
     "aka_civilianDesignation": "AW101",
     "model_version": "",
