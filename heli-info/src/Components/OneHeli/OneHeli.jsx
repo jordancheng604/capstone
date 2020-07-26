@@ -11,12 +11,12 @@ function OneHeli({singleAircraft}) {
             <div className='OneHeli__modelNumber'>Model number: {singleAircraft.model_no}</div>
             <div className='OneHeli__modelName'>Model name: {singleAircraft.model_name}</div>
             <p className='OneHeli__overview'>{singleAircraft.overview}</p>
-            <div className="OneHeli__length">{singleAircraft.length}</div>
-            <div className="OneHeli__wingspan">{singleAircraft.wingspan}</div>
-            <div className="OneHeli__height">{singleAircraft.height}</div>
-            <div className="OneHeli__power">{singleAircraft.power}</div>
-            <div className="OneHeli__maxSpeed">{singleAircraft.max_speed}</div>
-            <div className="OneHeli__range">{singleAircraft.range}</div>
+            <div className="OneHeli__length">Length: {singleAircraft.length}</div>
+            <div className="OneHeli__wingspan">Rotor span: {singleAircraft.wingspan}</div>
+            <div className="OneHeli__height">Height: {singleAircraft.height}</div>
+            <div className="OneHeli__power">Powerplant (engines): {singleAircraft.power}</div>
+            <div className="OneHeli__maxSpeed">Max Speed: {singleAircraft.max_speed}</div>
+            <div className="OneHeli__range">Range: {singleAircraft.range}</div>
             <div className="OneHeli__crew">{singleAircraft.crew}</div>
         </div>
 
