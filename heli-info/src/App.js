@@ -21,7 +21,7 @@ function App() {
       <Route path='/Contact' component={Contact}/>
       <Route path='/Storymode' component={StoryMode}></Route>
       <Route path='/:modelname' render={(routeProps)=>{return <Main routeProps={routeProps}/>}}/>
-      <Route exact path='/' component={Home}/>
+      <Route exact={true} path='/' component={Home}/>
       </Switch>
       </BrowserRouter>
     </div>

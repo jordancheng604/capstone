@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './NavBar.scss';
 import logo from '../../logoChinook2.svg';
 
@@ -8,24 +8,30 @@ export default function NavBar() {
         <div>
             <header className="header">
             <div className='header__logo'>
-            <Link to='/' className="HeliLogo">
+            <NavLink to='/' className="HeliLogo">
             <img src={logo} alt='Heli-Info Logo' className='header__logoImage'/>
-            </Link>
+            </NavLink>
             </div>
             
             <div className="header__rightSide">
-            <Link to='/About'>
+            <NavLink to='/About' activeClassName="header__active">
             <button className="header__About">About</button>
-            </Link>
-            <Link to='/Contact'>
+            </NavLink>
+            <NavLink to='/Contact' activeClassName="header__active">
             <button className="header__Contact">Contact</button>
-            </Link>
-            <Link to='/'>
-            <button className="header__Home">Home</button>
-            </Link>
-            <Link to='/Storymode'>
-            <button className="header__TestStoryMode">StoryMode</button>
-            </Link>
+            </NavLink>
+            <NavLink to='/' activeClassName="header__active"
+            isActive={(match, location)=>{
+                if(!match || location.pathname !== "/"){
+                    return false;
+                }if(location.pathname === "/"){return true;}
+            }}
+            >
+            <button className="header__Home" >Home</button>
+            </NavLink>
+            <NavLink to='/Storymode' activeClassName="header__active">
+            <button className="header__StoryMode" >StoryMode</button>
+            </NavLink>
             </div>
             </header>
         </div>
