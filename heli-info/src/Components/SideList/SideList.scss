@@ -3,11 +3,13 @@
     flex-direction: column;
     width: 20%;
     height: 35rem;
-    border: 1px dashed rgb(135, 115, 72);
     margin: 0rem;
     list-style: none;
     text-decoration: none;
-
+    border-left: 5px solid rgb(29, 33, 13);
+    border-bottom: 2px solid rgb(29, 33, 13);
+    // margin-left: 0.9rem;
+    
     &__image{
         height: 3rem;
         width: 5rem;

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Main from './Components/Main'
 import './App.css';
+import './styles/styles.scss';
 import axios from 'axios';
 import { BrowserRouter, Route, Switch, } from "react-router-dom";
 import Home from './Components/Main';

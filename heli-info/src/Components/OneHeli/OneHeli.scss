@@ -1,12 +1,13 @@
 .OneHeli{
     width: 73%;
     height: 35rem;
-    border: 1px dashed fuchsia;
+    border-top: 2px solid rgb(29, 33, 13);
+    border-right: 5px solid rgb(29, 33, 13);
+    padding: 0.5rem;
 
 
     &__image{
         border-radius: 5px;
-        box-shadow: blue;
         
     }
 }
