@@ -15,18 +15,22 @@
 
 
     @include tablet{
-    border-bottom: 2px solid rgb(113, 126, 64);
+    border-bottom: 2px solid rgb(29, 33, 13);
         
     }
     
+    &__card{
+        text-decoration: none;
+        color: black;
+    }
+
     &__image{
         height: 2rem;
         width: 3.5rem;
         padding: 0.5rem 0rem 0rem 0rem;
+        border-radius: 5px;
     }
 
 
-}
-.active{
-    // display: none;
+
 }

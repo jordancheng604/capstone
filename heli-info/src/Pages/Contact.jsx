@@ -20,6 +20,7 @@ export default class Contact extends Component {
     return (
         <div>
             <NavBar/>
+            <h1>Contact Us</h1>
             <form className="contact__form">
 
                 <input className="contact__nameInput" placeholder="Name"></input>

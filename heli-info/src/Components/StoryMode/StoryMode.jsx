@@ -220,7 +220,7 @@ heliImage = ()=>{
     return (
         <div className="StoryMode">
             <NavBar/>
-            <h5>StoryMode page</h5>
+            <h3>StoryMode</h3>
             <div style={{width: "800px", height: "800px"}}
             ref={mount => {this.mount=mount}}/>
 

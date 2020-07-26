@@ -7,7 +7,7 @@ export default function About() {
     return (
         <div>
             <NavBar/>
-            <h1>About PAGE.</h1>
+            <h1>About Us</h1>
             <p>
                 The original intent of this is to help share and spread information about Aviation Helicopters and saying Thank-You to those that serve and have served.
 
