@@ -11,8 +11,13 @@
     &__image{
         border: 1px solid black;
         border-radius: 5px;
-        height: 5rem;
-        width: 8rem;
+        height: 7rem;
+        width: 10rem;
+
+        @include tablet{
+            height: 15rem;
+            width: 19rem;
+        }
     }
 
 

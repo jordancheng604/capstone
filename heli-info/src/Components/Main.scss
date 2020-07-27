@@ -11,7 +11,15 @@ img{
 .OneHeli{
     // background-color: salmon;
     float:right;
-    margin-top: -35rem;
+    margin-top: -27rem;
     // border: 3px dotted fuchsia;
     // width: 59rem;
+
+    @include tablet{
+        margin-top: -30rem;
+    }
+
+    @include desktop {
+        margin-top: -39rem;
+    }
 }

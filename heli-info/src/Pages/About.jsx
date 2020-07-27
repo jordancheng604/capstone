@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from '../Components/NavBar/NavBar';
-import '../styles/styles.scss';
-
+import '../styles/AboutPage.scss';
 
 export default function About() {
     return (
-        <div className='about'>
+        <div >
             <NavBar/>
+            <div className='about'>
             <h1>About Us</h1>
             <div className='about__us'>
             <p>
@@ -26,6 +26,7 @@ export default function About() {
                 <p>There have been unforeseen difficulties in collecting appropriate information and content to not break any copyright laws.</p>
 
                 <p>If you would like to see your favorite Aircraft listed on our website. Feel free to use the Contact page and let us know. And if you have a favorite picture, that you own, and would like have it on our website please kindly send it to us via email.</p>
+            </div>
             </div>
         </div>
     )

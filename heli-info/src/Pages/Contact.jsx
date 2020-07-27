@@ -23,7 +23,7 @@ export default class Contact extends Component {
         <NavBar/>
             <div className="contact">
             <h1>Contact Us</h1>
-            <p className="contact__usPage">Don't see the aircraft you're looking for, or have a picture that you've taken and want to share? Feel free to reach out and we'll see what we can do.</p>
+            <p className="contact__usPage">Don't see the aircraft you're looking for, or have a picture that you've taken and want to share? Feel free to reach out about us and what we are trying to do; and, we'll see what we can do.</p>
            <div className="contact__usPageImage">?... hello?...</div>
             <form className="contact__form">
                 <div className="contact__nameContainer">
