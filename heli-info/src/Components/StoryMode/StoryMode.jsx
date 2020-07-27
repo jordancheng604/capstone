@@ -185,7 +185,7 @@ class StoryMode extends React.Component{
         // objLoader.load("./assets/18715_Tandem_rotor_transport_helicopter_V1.obj",
         object=>{
         this.aircraft=object;
-        this.aircraft.scale.set(0.9,0.9,0.9);
+        this.aircraft.scale.set(1.5,1.5,1.5);
         this.scene.add(this.aircraft);
       }
       )
@@ -221,26 +221,26 @@ heliImage = ()=>{
         <div className="StoryMode">
             <NavBar/>
             <h3>StoryMode</h3>
-            <div style={{width: "800px", height: "800px"}}
+            <div style={{width: "700px", height: "700px"}}
             ref={mount => {this.mount=mount}}/>
 
         
 
            <div className="HeliModel">
+            <h3 className="section__left">Helicopter Model No and Name: AH-64 Apache</h3>
+            <h3 className="section__left">Manufacturer: Boeing</h3>
+            <h5 className="section__left">The flying Tank.</h5>
+
+
+            <div className="section__right">
+                <h5>It can fly upside down.</h5>
            
               
 
 
            </div>
-            <h3 className="section__left">L-Helicopter Model No and Name: AH-64 Apache</h3>
-            <h3 className="section__left">L-Manufacturer: Boeing</h3>
-            <p className="section__left">L-Possible a slogan or nickname: The flying Tank.</p>
-
-
-            <div className="section__right">
-                <h3>It can fly upside down.</h3>
             </div>
-
+{/* 
             <div className="background__container">
             <div className="parallaxGround">For ground layer</div>
 
@@ -264,7 +264,7 @@ heliImage = ()=>{
 
             </div>
 
-            <div>BluePrint section starts here.</div>
+            <div>BluePrint section starts here.</div> */}
 
         </div>
     )
