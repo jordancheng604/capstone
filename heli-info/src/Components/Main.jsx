@@ -37,11 +37,18 @@ class Main extends React.Component {
             }
             )
             .catch(console.error())
-        }if(this.props === undefined || null){
-            axios.get('http://localhost:8080/Chinook')
-            .then(res=>{this.setState({mainAircraft: res.data})})
         }
-
+        
+        // if(this.props === undefined || this.props.location.pathname==="/xyz" && this.props.match.params !== this.props.match.parms){
+        //     axios.get('http://localhost:8080/Chinook')
+        //     .then(res=>{this.setState({mainAircraft: res.data})})
+        // }
+        // if(this.componentDidUpdate && this.props.match.path === "/" && this.props !== this.props
+        //     // this.props !== prevProps && this.props !== this.props
+        //     ){
+        //     axios.get('http://localhost:8080/Chinook')
+        //     .then(res=>{this.setState({mainAircraft: res.data})})
+        // }
         
     }
 
