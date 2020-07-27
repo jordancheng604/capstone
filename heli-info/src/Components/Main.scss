@@ -7,7 +7,11 @@ img{
 .SideList{
     // background-color: greenyellow;
     margin-right: 0rem;
+    // @include desktop {
+    //     margin-top: 10.3rem;
+    // }
 }
+
 .OneHeli{
     // background-color: salmon;
     float:right;
@@ -20,6 +24,6 @@ img{
     }
 
     @include desktop {
-        margin-top: -39rem;
+        margin-top: -39.999rem;
     }
 }

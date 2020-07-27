@@ -18,6 +18,15 @@
             height: 15rem;
             width: 19rem;
         }
+
+        @include desktop{
+            height: 19rem;
+            width: 23rem;
+            &:hover{
+                transform:scale(1.8, 1.8);
+                transition:0.3s;
+            }
+        }
     }
 
 

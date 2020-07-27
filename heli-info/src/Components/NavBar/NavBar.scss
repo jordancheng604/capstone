@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 1rem;
+    // position: absolute;
 
 
 
@@ -27,6 +28,7 @@
         border-right: 3.9px solid rgb(29, 33, 13);
         border-bottom: 2.2px solid rgb(29, 33, 13);
         padding: 0.5rem;
+       
     }
 
     &__active{
@@ -39,9 +41,15 @@ button{
     border: none;
     font-weight: 900;
     margin: 0.5rem;
+
+    &:hover{
+        border-right: 1.5px solid blue;
+        border-bottom: 2px solid blue;
+    }
 }
 // .active{
 //     // background-color: blue;
 //     border-left: 3px solid rgb(29, 33, 13);
 //     border-top: 1px solid rgb(29, 33, 13);
 // }
+     

@@ -21,10 +21,11 @@ export default function NavBar() {
             <button className="header__Contact">Contact</button>
             </NavLink>
             <NavLink to='/' activeClassName="header__active"
+
             isActive={(match, location)=>{
-                if(!match || location.pathname !== "/"){
+                if(!match || !location.pathname === "/"){
                     return false;
-                }if(location.pathname === "/"){return true;}
+                }if(location.pathname === "/" || location.pathname === `/Chinook` || location.pathname === `/Cyclone` || location.pathname === `/Griffon` || location.pathname === `/Cormorant` || location.pathname === `/JetRanger`){return true;}
             }}
             >
             <button className="header__Home" >Home</button>

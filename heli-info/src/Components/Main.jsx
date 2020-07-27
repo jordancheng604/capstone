@@ -18,8 +18,14 @@ class Main extends React.Component {
         .then(res=>{this.setState({data: res.data})})
         .catch(console.error())
 
+        // if(this.props !== "/Chinook" || this.props !== this.props){
+        //     axios.get('http://localhost:8080/Chinook')
+
+        //     .then(res=>{this.setState({mainAircraft: res.data})})
+        // }
         axios.get('http://localhost:8080/Chinook')
         .then(res=>{this.setState({mainAircraft: res.data})})
+
 
     }
     componentDidUpdate(prevProps){
@@ -31,7 +37,12 @@ class Main extends React.Component {
             }
             )
             .catch(console.error())
+        }if(this.props === undefined || null){
+            axios.get('http://localhost:8080/Chinook')
+            .then(res=>{this.setState({mainAircraft: res.data})})
         }
+
+        
     }
 
     render(props) {

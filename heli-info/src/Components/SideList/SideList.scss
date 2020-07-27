@@ -27,6 +27,11 @@
     &__card{
         text-decoration: none;
         color: black;
+
+        &:hover{
+            border-right: 3.9px solid #00308F;
+            border-top: 2px solid #00308F;
+        }  
     }
 
     &__image{
@@ -43,6 +48,7 @@
         @include desktop{
             height: 5rem;
             width: 8rem;
+           
         }
     }
 
