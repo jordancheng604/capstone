@@ -1,18 +1,10 @@
 import React, { Component } from 'react';
-
-// import ReactDOM from "react-dom";
-
-
 import * as THREE from "three";
 import { MTLLoader,  OBJLoader } from "three-obj-mtl-loader";
 import OrbitControls from "three-orbitcontrols";
-
 import NavBar from '../NavBar/NavBar';
 import './StoryMode.scss';
 
-
-
-import React, { Component } from 'react'
 
 export default class Chinook extends Component {
     componentDidMount(){

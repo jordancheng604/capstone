@@ -5,19 +5,12 @@ img{
     max-height: 10rem;
 }
 .SideList{
-    // background-color: greenyellow;
     margin-right: 0rem;
-    // @include desktop {
-    //     margin-top: 10.3rem;
-    // }
 }
 
 .OneHeli{
-    // background-color: salmon;
     float:right;
     margin-top: -27rem;
-    // border: 3px dotted fuchsia;
-    // width: 59rem;
 
     @include tablet{
         margin-top: -30rem;

@@ -3,7 +3,6 @@ import './SideList.scss';
 import {Link, withRouter} from 'react-router-dom';
 
 class SideList extends React.Component {
-
     render(){
         let heliList = this.props.heliList
     return (

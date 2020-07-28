@@ -10,12 +10,8 @@
     list-style: none;
     text-decoration: none;
     border-left: 5px solid rgb(29, 33, 13);
-    // margin-left: 0.9rem;
-    // border-bottom: 2px solid rgb(113, 126, 64);
-
 
     @include tablet{
-    // border-top: 2px solid rgb(29, 33, 13);
     height: 55%;    
     width: 22%;
     }
@@ -27,7 +23,6 @@
     &__card{
         text-decoration: none;
         color: black;
-
         &:hover{
             border-right: 3.9px solid #00308F;
             border-top: 2px solid #00308F;
