@@ -14,8 +14,7 @@ export default function About() {
 
                 <p> Thank you for the sacrifices that you and your family have made. </p>
 
-                <p>We believe that there is not enough appreciation for those that serve and have served; and therefore, encourage people to... 
-                    ...look into volunteering or donations. If you're thinking about helping out somewhere, please consider our veterans.</p>
+                <p>We believe that there could be more appreciation for those that serve and have served; therefore, please consider our Veterans if you are looking into volunteering or donating.</p>
 
                 <p>This project started with Canadian Military Helicopters, and we would like to slowly grow and add more Military Aircraft and Equipment to the website. It is dependant on a lot of factors so please bear with us if adding new content is slow.</p>
 
@@ -23,9 +22,9 @@ export default function About() {
 
                 <p>Our goal is to eventually have all NATO military equipment listed on our website.</p>
 
-                <p>There have been unforeseen difficulties in collecting appropriate information and content to not break any copyright laws.</p>
+                <p>There have been unforeseen difficulties in collecting appropriate information and content as to not break any copyright laws, so please be patient if you do not see any new equipment on here.</p>
 
-                <p>If you would like to see your favorite Aircraft listed on our website. Feel free to use the Contact page and let us know. And if you have a favorite picture, that you own, and would like have it on our website please kindly send it to us via email.</p>
+                <p>If you would like to see your favorite Aircraft listed on our website. Feel free to use the Contact page and let us know. And if you have a favorite picture, that you own, and would like to have it on our website please kindly reach out to us and we'll see what can be done.</p>
             </div>
             </div>
         </div>
