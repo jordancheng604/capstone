@@ -8,7 +8,7 @@ export default function NavBar() {
         <div>
             <header className="header">
             <div className='header__logo'>
-            <NavLink to='/' className="HeliLogo">
+            <NavLink to='/Chinook' className="HeliLogo">
             <img src={logo} alt='Heli-Info Logo' className='header__logoImage'/>
             </NavLink>
             </div>
@@ -20,7 +20,7 @@ export default function NavBar() {
             <NavLink to='/Contact' activeClassName="header__active">
             <button className="header__Contact">Contact</button>
             </NavLink>
-            <NavLink to='/' activeClassName="header__active"
+            <NavLink to='/Chinook' activeClassName="header__active"
 
             isActive={(match, location)=>{
                 if(!match || !location.pathname === "/"){
@@ -28,6 +28,8 @@ export default function NavBar() {
                 }if(location.pathname === "/" || location.pathname === `/Chinook` || location.pathname === `/Cyclone` || location.pathname === `/Griffon` || location.pathname === `/Cormorant` || location.pathname === `/JetRanger`){return true;}
             }}
             >
+
+
             <button className="header__Home" >Home</button>
             </NavLink>
             <NavLink to='/Storymode' activeClassName="header__active">

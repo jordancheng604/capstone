@@ -3,7 +3,6 @@ import {withRouter} from "react-router-dom";
 import './OneHeli.scss';
 
 function OneHeli({singleAircraft}) {
-    console.log(singleAircraft)
     return (
         <div className='OneHeli'>
             <img className='OneHeli__image' src={singleAircraft.image2} alt=""/>

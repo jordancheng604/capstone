@@ -6,6 +6,9 @@ import './Main.scss';
 import SideList from './SideList/SideList';
 import OneHeli from './OneHeli/OneHeli';
 
+// let mainChinook = "Chinook";
+// let globalChinook = "";
+
 class Main extends React.Component {
     state = {
         data: [],
@@ -16,28 +19,43 @@ class Main extends React.Component {
 
         axios.get('http://localhost:8080/list')
         .then(res=>{this.setState({data: res.data})})
-        .catch(console.error())
+        .catch(console.error("An error occured with the list."))
 
-        // if(this.props !== "/Chinook" || this.props !== this.props){
-        //     axios.get('http://localhost:8080/Chinook')
-
-        //     .then(res=>{this.setState({mainAircraft: res.data})})
-        // }
         axios.get('http://localhost:8080/Chinook')
         .then(res=>{this.setState({mainAircraft: res.data})})
+
+        // if(thisThing !== this.props.match.params.id){
+        //     if(this.props.match.params.id === undefined){
+        //         this.props.match.params.id = thisThing
+        //     }
+        //     globalVar = this.props.match.params.id
+        //     axios.get(`http://localhost:8080/${globalVar}`)
+        //     .then(res=>{this.setState({mainAircraft: res.data})})
+        // }
+
 
 
     }
     componentDidUpdate(prevProps){
+        
         if(this.props.match.params !== prevProps.match.params){
             axios.get(`http://localhost:8080/${this.props.match.params.modelname}`)
             .then(
                 res=>{this.setState({mainAircraft: res.data})
-            console.log('L25' + this.props)
             }
             )
             .catch(console.error())
         }
+        
+        
+        // if(mainChinook !== this.props.match.params.id){
+        //     if(this.props.match.params.id === undefined){
+        //         this.props.match.params.id = mainChinook
+        //     }
+        //     globalChinook = this.props.match.params.id
+        //     axios.get(`http://localhost:8080/${globalChinook}`)
+        //     .then(res=>{this.setState({mainAircraft: res.data})})
+        // }
         
         // if(this.props === undefined || this.props.location.pathname==="/xyz" && this.props.match.params !== this.props.match.parms){
         //     axios.get('http://localhost:8080/Chinook')
@@ -53,7 +71,6 @@ class Main extends React.Component {
     }
 
     render(props) {
-        console.log('Main Line:32' + {props})
     return (
         <div>
             <NavBar/>
